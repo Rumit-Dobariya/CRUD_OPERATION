@@ -11,7 +11,7 @@ function Edit() {
     const[firstname, setName] = useState('');
     const[lastname, setLastName] = useState('');
     const[email, setEmail] = useState('');
-    const[gender, setGender] = useState('');
+    const[gender, setGender] = useState('Female');
     const[department, setDepartment] = useState('');
     const[skills, setSkills] = useState([]);
     const[id, setId] = useState('');
@@ -137,8 +137,8 @@ function Edit() {
         {['radio'].map((type) => (
         <div className="mb-3 gender" style={{height: "2rem"}}>
         <Form.Label label={`Gender`}>Gender</Form.Label>
-          <Form.Check type={type} value={"Female"} label={`Female`} id={`female`} name="gender" style={{display: "flex" , gap: "1rem", justifyContent: "start"}} onChange={(e) => setGender(e.target.value)}/>
-          <Form.Check type={type} value={"Male"} label={`Male`} id={`male`} name="gender" style={{display: "flex" , gap: "1rem", justifyContent: "start"}} onChange={(e) => setGender(e.target.value)}/>
+          <Form.Check type={type} value={"Female"} label={`Female`} id={`female`} name="gender" style={{display: "flex" , gap: "1rem", justifyContent: "start"}} checked={gender === 'Female'} onChange={(e) => setGender(e.target.value)}/>
+          <Form.Check type={type} value={"Male"} label={`Male`} id={`male`} name="gender" style={{display: "flex" , gap: "1rem", justifyContent: "start"}} checked={gender === 'Male'} onChange={(e) => setGender(e.target.value)}/>
         
         </div>
         ))}

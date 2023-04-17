@@ -10,7 +10,7 @@
     width: 50%;
 }
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 929px){
     .main-body{
         display: flex;
         flex-direction: column;
@@ -18,5 +18,9 @@
     }
     .search-child{
         width: 100%;
+    }
+    .edit{
+        width: 69px;
+        margin-bottom: 10px;
     }
 }
