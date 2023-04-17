@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    border-radius: 40px;
+    position: relative;
+    background: linear-gradient(to top, rgb(255, 255, 255) 58%, #2991D6 58%);
+    box-shadow: 0px 6px 10px 10px #000000;
+}
+.p-div{
+    background: #73B1DD;
+    padding: 2rem 0;
+}
+.child-div{
+    display: flex;
+    width: 100%;
+    margin: 0rem;
+    /* background: red; */
+    height: 65%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    gap: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+.first-line-child{
+    width: 20%;
+    height: 33vh;
+    background: rgb(255, 255, 255);
+    transform: rotate(45deg);
+    border-radius: 20px;
+    box-shadow: 6px 0px 10px 6px black;
+    display: flex;
+}
+.child-div-2{
+    display: flex;
+    gap: 7rem;
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    width: 100%;
+}
+
+.house{
+    transform: rotate(315deg);
+}
+.house1{
+    transform: rotate(315deg);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.house2{
+    transform: rotate(315deg);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.tab-content .active:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+.tab-content .active:nth-child(1) form{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 0%;
+    gap: 25px;
+}

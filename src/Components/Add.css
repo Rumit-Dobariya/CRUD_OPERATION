@@ -1,0 +1,14 @@
+.gender{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.checkbox{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1rem;
+}
+.lable-text{
+    float: left;
+}

@@ -1,0 +1,22 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: -1rem;
+}
+
+.search-child{
+    width: 50%;
+}
+
+@media only screen and (max-width: 850px){
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .search-child{
+        width: 100%;
+    }
+}
