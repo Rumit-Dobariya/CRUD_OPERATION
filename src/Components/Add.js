@@ -89,6 +89,22 @@ function Add() {
         }
     }
 
+    // const nameValidate = (e) => {
+    //     const newname = e;
+    //     const specialregex = "@";
+    //     console.log(newname);
+        
+    //     if (newname === specialregex) {
+    //         console.log("special character found");
+    //         document.getElementsByClassName("invalid-feedback").innerHTML = "hello";
+
+    //         // alert("Please Enter Valid Name");
+    //         return document.getElementById("fname").focus();
+    //     }
+            
+    // }
+
+
     
 
 

@@ -146,11 +146,11 @@ function Home() {
                                     <td key={"skl"}>
                                         {item.Skills.join(", ")}
                                     </td>
-                                    <td key={"btn"}>
-                                        <Link to={`/edit`}>
-                                        <Button className="edit" variant="primary" onClick={()=> handleEdit(item.id , item.FirstName, item.LastName, item.Email, item.Gender ,item.Department, item.Skills, item.Phone, item.About)}>Edit</Button>
-                                        </Link>
-                                        &nbsp;
+                                   <td key={"btn"}>
+                                       <Link to={`/edit`}>
+                                       <Button className="edit" variant="primary" onClick={()=> handleEdit(item.id , item.FirstName, item.LastName, item.Email, item.Gender ,item.Department, item.Skills, item.Phone, item.About)}>Edit</Button>
+                                       </Link>
+                                       &nbsp;
                                         <Button variant="danger" onClick={()=> handleDelete(item.id)}>Delete</Button>
                                     </td>
                                 </tr>
